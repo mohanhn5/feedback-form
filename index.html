@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+
+</style>
+<body>
+    <h1 id="title">K.M Naganna shopping complex</h1>
+    <p id="description">Please give your valuable feedback of your shopping experience.</p>
+    <img src="C:\Users\DELL\Desktop\Mohan\Survey form\images\kmn.png" alt="logo"> 
+
+    <form id="survey-form">
+        
+        <label for="name" id="name-label">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your Name" required><br><br>
+
+        <label for="email" id="email-label">Email:</label><br>
+        <input type="email" id="email" name="eamil" placeholder="Enter your Email ID" required><br><br>
+
+        <label for="dropdown" style="font-size: 23px;">Who recommanded you to purchase here:</label><br>
+        <select name="recommands" id="dropdown">
+            <option value="family">Family</option>
+            <option value="friends">Friends</option>
+            <option value="neighbours">Neighbours</option>
+            <option value="wellwishers">Well wishers</option>
+        </select><br><br>
+
+        <label for="place" style="font-size: 23px;">Where are you from:</label><br>
+        
+            <input type="radio" id="place" name="place" value="mandya">Mandya<br>
+            <input type="radio" id="place" name="place" value="mysuru">Mysuru<br>
+            <input type="radio" id="place" name="place" value="bengaluru">Bengaluru<br><br>
+        
+        
+        <label for="goods" style="font-size: 23px;">Type of goods purchased:</label><br>
+        
+            <input type="checkbox" id="goods" name="goods" value="grocery1">Cokking essentials<br>
+            <input type="checkbox" id="goods" name="goods" value="grocery2">Cleaning products<br>
+            <input type="checkbox" id="goods" name="goods" value="grocery3">Beauy products<br>
+            <input type="checkbox" id="goods" name="goods" value="cloth1">Men's wear<br>
+            <input type="checkbox" id="goods" name="goods" value="cloth2">Women's wear<br>
+            <input type="checkbox" id="goods" name="goods" value="cloth3">Kids' wear<br><br>
+        
+        <label for="number" id="number-label" style="font-size: 23px;">Ratings: (1-Very poor ; 2-Poor ; 3-Average ; 4-Good ; 5-Excellent)</label><br>
+        <input type="number" min="1" max="5" id="number" name="number" placeholder="Rate your shopping experience"><br><br>
+
+        <label for="review" style="font-size: 23px;">Leave a comment to help us improve:</label><br>
+        <textarea id="review" name="review" rows="10" cols="50" placeholder="Enter your comments here.."></textarea><br><br>
+        
+        <button id="submit" type="submit" style="font-size: 25px;">Submit</button>
+          
+    </form>
+</body>
+</html>
